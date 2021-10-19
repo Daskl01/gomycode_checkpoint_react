@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    margin-left: 35%;
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    height: 50%;
+    background-image: url(../../formulaire/public/GOMYCODE.jpg);
+}
+
+input{
+    display: flex;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 1,5rem;
+    font-weight: 200;
+
+}
+
+.btn-warning{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-left: 38%;
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
+p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p:hover{
+    color: blue;
+}
+
+h1{
+    color:royalblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.input{
+    height: 100px;
+    width: 50%px;
+}
